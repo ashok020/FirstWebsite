@@ -32,9 +32,9 @@
 .inner_bg {
 	box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 	border-radius: 15px;
-	width: 60%;
-	height: 100%;
-	padding: 5vh 2vw;
+	width: 600px;
+	height: 600px;
+	padding: 10px 10px;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -141,8 +141,9 @@ button:hover {
 
 @media only screen and (max-width: 768px) {
 	.inner_bg {
-		width: 400px;
-		height: 400px;
+        width: 400px;
+        height: 400px;
+        padding: 10px 10px;
 	}
 	.center h1 {
 		margin-bottom: 30px;
