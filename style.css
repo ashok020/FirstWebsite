@@ -91,7 +91,7 @@
 	position: relative;
 	width: 300px;
 	height: 50px;
-	margin-bottom: 50px;
+	margin-bottom: 30px;
 }
 
 .center .inputbox input {
@@ -104,7 +104,7 @@
 	background: none;
 	padding: 10px;
 	border-radius: 10px;
-	font-size: 25px;
+	font-size: 20px;
 }
 
 .center .inputbox span {
@@ -113,14 +113,15 @@
 	left: 20px;
 	font-size: 15px;
 	transition: 0.6s;
-	font-family: sans-serif;
+	
 }
 
 .center .inputbox input:focus~span,
 .center .inputbox input:valid~span {
 	transform: translateX(-13px) translateY(-35px);
-	font-size: 20px;
+	font-size: 18px;
 }
+
 
 button {
 	width: 50%;
@@ -130,25 +131,29 @@ button {
 	color: #fff;
 	border: #fff;
 	font-size: 20px;
-	margin-top: 5px;
 	transition: 0.5s;
 }
 
 button:hover {
 	border-radius: 50px;
 	background: #e73c7e;
+    width: 35%;
 }
 
 @media only screen and (max-width: 768px) {
 	.inner_bg {
         width: 400px;
-        height: 400px;
+        height: 480px;
         padding: 10px 10px;
 	}
+    .center .nexus-logo
+    {
+        margin-bottom: 20px;
+    }
 	.center h1 {
 		margin-bottom: 30px;
 	}
 	.center .inputbox {
-		margin-bottom: 15px;
+		margin-bottom: 30px;
 	}
 }
